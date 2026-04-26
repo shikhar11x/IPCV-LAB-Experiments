@@ -24,4 +24,6 @@ plt.figure(figsize=(10,4))
 plt.subplot(1,3,1); plt.imshow(gauss, cmap='gray'); plt.title('Gaussian Noise'); plt.axis('off')
 plt.subplot(1,3,2); plt.imshow(mean_filt, cmap='gray'); plt.title('Mean Filter'); plt.axis('off')
 plt.subplot(1,3,3); plt.imshow(median_filt, cmap='gray'); plt.title('Median Filter'); plt.axis('off')
+plt.savefig('Output-Images/output-exp-7.png', dpi=150)
+
 plt.show()
